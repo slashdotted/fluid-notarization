@@ -1,0 +1,14 @@
+{
+  "recordId": "ehr-2026-000123",
+  "patient": {
+    "patientId": "PAT-001",
+    "firstName": "Mario",
+    "lastName": "Rossi",
+    "dateOfBirth": "1972-03-15",
+    "gender": "M",
+    "bloodType": "A+"
+  },
+  "emergencyContacts♭": [],
+  "currentMedications♭": [],
+  "specialistReports♭": []
+}

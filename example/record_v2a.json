@@ -1,0 +1,87 @@
+{
+  "recordId": "ehr-2026-000123",
+  "patient": {
+    "patientId": "PAT-001",
+    "firstName": "Mario",
+    "lastName": "Rossi",
+    "dateOfBirth": "1972-03-15",
+    "gender": "M",
+    "bloodType": "A+"
+  },
+  "emergencyContacts♭": [
+    {
+      "_id": "f7d88e9d-1690-45f3-9ff8-3ea6d39ef7d1",
+      "name": "Anna Rossi",
+      "relationship": "Spouse",
+      "phone": "+41 79 123 45 67"
+    }
+  ],
+  "currentMedications♭": [
+    {
+      "_id": "2c6005ea-4bc6-4aef-b5d6-3f16e88d2f3d",
+      "name": "Atorvastatin",
+      "dosage": "20 mg",
+      "frequency": "Once daily"
+    },
+    {
+      "_id": "91ed8bf4-4257-44a1-8f28-fc4c26bbf1e0",
+      "name": "Ramipril",
+      "dosage": "5 mg",
+      "frequency": "Once daily"
+    }
+  ],
+  "specialistReports♭": [
+    {
+      "_id": "7b4a9c8f-48f9-4da8-9c6b-285407749f6c",
+      "reportId": "REP-001",
+      "specialty": "Allergology",
+      "physicianId": "DOC-AL-01",
+      "physicianName": "Dr. Laura Bianchi",
+      "visitDate": "2026-09-02T09:15:00Z",
+      "findings": {
+        "allergies": [
+          {
+            "substance": "Drug X",
+            "severity": "Severe",
+            "reaction": "Anaphylaxis"
+          }
+        ]
+      },
+      "recommendations": [
+        "Avoid Drug X",
+        "Record allergy in all future prescriptions"
+      ]
+    },
+    {
+      "_id": "d968e2ee-9624-43bc-a5fe-4f057032dc4b",
+      "reportId": "REP-002",
+      "specialty": "Cardiology",
+      "physicianId": "DOC-CA-03",
+      "physicianName": "Dr. Marco Verdi",
+      "visitDate": "2026-09-02T09:20:00Z",
+      "findings": {
+        "bloodPressure": "145/95",
+        "heartRate": 88
+      },
+      "recommendations": [
+        "Increase Ramipril dosage",
+        "Follow-up in 30 days"
+      ]
+    },
+    {
+      "_id": "5a7783b8-a5ea-4211-82a8-b03045d27f44",
+      "reportId": "REP-003",
+      "specialty": "Radiology",
+      "physicianId": "DOC-RA-07",
+      "physicianName": "Dr. Elena Neri",
+      "visitDate": "2026-09-02T14:10:00Z",
+      "findings": {
+        "exam": "Chest CT",
+        "result": "No acute abnormalities"
+      },
+      "recommendations": [
+        "Routine follow-up only"
+      ]
+    }
+  ]
+}
