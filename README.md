@@ -331,5 +331,4 @@ This repository is provided as a proof-of-concept implementation accompanying th
 
 If you use this software in academic work, please cite:
 
-Brocco, A., Gremlich, G., Guidi, R.
-"Fluid Notarization: Verifiable Evolution of Concurrently Edited Structured Documents".
+Amos Brocco, Giuliano Gremlich, Roberto Guidi. "Fluid Notarization: Verifiable Evolution of Concurrently Edited Structured Documents", arxiv
